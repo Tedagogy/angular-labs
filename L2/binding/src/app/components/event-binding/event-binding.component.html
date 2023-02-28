@@ -1,0 +1,11 @@
+<h2>Event Binding</h2>
+<p>In the component's HTML code, the binding (click)="processClickButton1() has been added to the button 1 element.
+That means that when the (click) event fires, the processClickButton1 method in the Component's TypeScript file
+will run. In this case, property binding is later used to helpfully inform the user that the button has been clicked.
+</p>
+<button (click)="processClickButton1()">button 1</button>
+<p>{{button1ClickedMessage}}</p>
+<p>TODO: replicate the functionality by introducing event binding to button 2, as well as writing a method within
+the component .ts file to process the clicking of button 2.</p>
+<button>button 2</button>
+<p>{{button2ClickedMessage}}</p>
