@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-binding.component.css']
 })
 export class EventBindingComponent implements OnInit {
+  /**
+   * These two variables are bound to the component via property binding.
+   */
   button1ClickedMessage: String = "button 1 not clicked";
   button2ClickedMessage: String = "button 2 not clicked";
 
@@ -18,6 +21,7 @@ export class EventBindingComponent implements OnInit {
   }
   /**
    * TODO: write a method to handle the clicking of button 2 which changes the button2ClickedMessage.
+   * The method should be bound to the click event of button 2 via event binding.
    */
 
 

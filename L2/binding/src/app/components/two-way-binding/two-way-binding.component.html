@@ -2,8 +2,10 @@
 <p>Two-way binding is the combination of both event and property binding.
 Generally, you'll only see two-way binding when working with some form of user input that performs live-updates on the
   site, such as autocomplete features, or changing text in multiple places as the user types in an input box.
-  As you can see, the property-bound inputText1 is changed from live event updates from the input box. This is why
-  this is referred to as two-way binding: Property binding and event binding are working simultaneously in tandem.
+  As you can see, the property-bound inputText1 is changed from live event updates from the input box. The current
+  text is also bound to the current value in TypeScript, and is updated as the user causes events to update the value.
+  This is why this is referred to as two-way binding: Property binding and event binding are working simultaneously in
+  tandem.
 </p>
 <input type = "text" [(ngModel)]="inputText1">
 <p>{{inputText1}}</p>

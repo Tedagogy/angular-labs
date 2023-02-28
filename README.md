@@ -36,6 +36,7 @@ Angular CLI. When making your own projects, you should NEVER try to manually
 copy/paste Angular folders or files, as it relies on a bit of additional 
 configuration you'd be likely to get wrong. Instead, rely on the Angular CLI
 commands in the terminal:
+
 - ng new {project-name}
 - ng generate component {component-name}
 - ng generate service {service-name}
