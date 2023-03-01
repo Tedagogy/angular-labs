@@ -7,13 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyBindingComponent implements OnInit {
   /**
-   * These two variables are bound to the HTML template. That means that the component will always display these
-   * two values, and the site will update as these values update.
-   *
-   * Check out the HTML file in this component to see how the variables are bound.
+   * This url is being bound to the
    */
-  tsVariable1: String = "this value was obtained from the TypeScript file.";
-  tsVariable2: String = "this variable should be bound to the site.."
+  urlLink: String = "https://angular.io/";
+  ngLogo: String = "https://angular.io/assets/images/logos/angular/logo-nav@2x.png";
 
   constructor() { }
 
