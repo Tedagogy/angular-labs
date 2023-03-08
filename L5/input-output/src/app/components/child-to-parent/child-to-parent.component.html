@@ -1,1 +1,10 @@
-<p>child-to-parent works!</p>
+<h2>Child component to parent component</h2>
+<p>Transferring data from a child component to a parent component is a bit more involved. If we were to think of how
+  to magically transfer a value from child to parent, we'd run into complications where we would need to manage
+  multiple children sending updates at unknown times. A perfect solution is to build a custom event
+  that contains the data of the update. We use an EventEmitter to create the event, which will have a handler method
+  written that will update the parent component.
+</p>
+<p>notice that this looks a bit like event binding.</p>
+<app-output></app-output>
+<app-output></app-output>
