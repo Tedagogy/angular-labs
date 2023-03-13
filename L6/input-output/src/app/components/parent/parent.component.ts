@@ -6,6 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {
+  /**
+   * These two variables are passed to child components
+   * from this component's HTML template
+   */
+  var1: String = "";
+  var2: String = "";
+  /**
+   * this variable should be passed into the child component from
+   * this component's HTML template
+   */
+  todoData: String = "";
 
   constructor() { }
 

@@ -2,20 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {FormsModule} from "@angular/forms";
-import { ParentComponent } from './components/parent/parent.component';
-import { ChildComponent } from './components/child/child.component';
+import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParentComponent,
-    ChildComponent,
-
+    LifecycleComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

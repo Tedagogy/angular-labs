@@ -6,11 +6,7 @@
   components. We will refer to the relationship of a component rendering another component in its HTML template
   as parent and child components. Check out the 'parent' and 'child' components to see how data can be passed between
   them.</p>
-<app-parent-to-child></app-parent-to-child>
-<h2>Child to Parent</h2>
-<p>If you recall the @Output annotation used in EventEmitters, it may also be used to send data from a child component
-to the parent. An event emitted by the EventEmitter can have some data attached to it, which can then be received by
-the parent component's handler for the custom event. This can be used for passing data from child to parent.</p>
+<app-parent></app-parent>
 <h2>Global state</h2>
 <p>There are several approaches to global state storage, but we will be focusing on the simplest method:
 simply put some variable in a singleton Object that is shared across the whole app. We will do this with Services
