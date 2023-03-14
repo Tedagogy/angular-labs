@@ -6,15 +6,18 @@ import { ButtonMenuComponent } from './components/button-menu/button-menu.compon
 import {DisplayComponent} from "./components/display/display.component";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ButtonMenuComponent,
-    DisplayComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        ButtonMenuComponent,
+        DisplayComponent
+    ],
+    imports: [
+        BrowserModule
+    ],
+    providers: [],
+    exports: [
+        DisplayComponent
+    ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

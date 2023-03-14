@@ -1,0 +1,9 @@
+<h1>Space Reports</h1>
+<div *ngFor="let report of reports">
+  <a [href] = "report.url">{{report.title}}</a>
+  <span> - {{report.publishedAt}}</span>
+  <br>
+  <img [src]="report.imageUrl">
+  <span>{{report.summary}}</span>
+
+</div>

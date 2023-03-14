@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LifecycleComponent } from './components/lifecycle/lifecycle.component';
+import { DisplayComponent } from './components/display/display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LifecycleComponent
+    LifecycleComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule
