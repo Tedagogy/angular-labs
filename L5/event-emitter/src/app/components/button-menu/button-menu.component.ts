@@ -17,13 +17,6 @@ export class ButtonMenuComponent implements OnInit {
    * TODO: provide an EventEmitter intended for decrementing the parent component's count value.
    */
 
-
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
   /**
    * This method will fire when a button is clicked, and will emit an incrementEvent to the parent component.
    */
@@ -36,5 +29,10 @@ export class ButtonMenuComponent implements OnInit {
    */
   decrement() {
 
+  }
+
+  constructor() { }
+
+  ngOnInit(): void {
   }
 }
